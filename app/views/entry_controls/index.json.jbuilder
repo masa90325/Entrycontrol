@@ -1,0 +1,1 @@
+json.array! @entry_controls, partial: 'entry_controls/entry_control', as: :entry_control

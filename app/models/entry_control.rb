@@ -1,0 +1,2 @@
+class EntryControl < ApplicationRecord
+end

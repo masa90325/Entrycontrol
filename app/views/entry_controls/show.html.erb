@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @entry_control.user_id %>
+</p>
+
+<p>
+  <strong>Entry:</strong>
+  <%= @entry_control.entry %>
+</p>
+
+<%= link_to 'Edit', edit_entry_control_path(@entry_control) %> |
+<%= link_to 'Back', entry_controls_path %>
